@@ -297,7 +297,7 @@
             </section>
         </div>
         <div class="order-section">
-            <a href="https://www.instagram.com/everybodyhtxkris/"><h2>Place Your Order</h2></a> <!-- I will take your order personally :3 -->
+            <a href="https://www.instagram.com/samip__grg/"><h2>Place Your Order</h2></a> <!-- I will take your order personally :3 -->
             <br><br>
             <form>
                 <label for="name">Name:</label><br>
@@ -338,7 +338,7 @@
         audio.volume = 0.3; 
     </script>
     <footer>
-        <p> With Love and Neko <a href="https://www.codedex.io/@Kristion">@Kristion</a></p>
+        <p> With Love and Neko <a href="https://www.codedex.io/@Samppiii">@Samppiii</a></p>
     </footer>
 </body>
 </html>
