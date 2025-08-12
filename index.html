@@ -6,22 +6,21 @@
     <style>
         @font-face {
             font-family: 'Minecraft';
-            src: url('../Final/fonts/Minecraft.ttf') format('ttf'); /* Keeps the font type as is */
+            src: url('../Final/fonts/Minecraft.ttf') format('ttf');
             font-weight: normal;
             font-style: normal;
         }
 
-        /* General Styles */
         body {
             margin: 0;
-            font-family: 'Minecraft', sans-serif; /* Applies Minecraft font to body */
-            text-align: center; /* Center all text in the body */
+            font-family: 'Minecraft', sans-serif;
+            text-align: center;
             background-color: #1e0315d1;
         }
 
         header {
-            margin: 0; /* Removes default margin */
-            padding: 0; /* Removes default padding */
+            margin: 0;
+            padding: 0;
         }
         p i {
             font-size: 1rem;
@@ -51,7 +50,6 @@
             padding: 20px;
             box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
             margin: 20px auto;
-            
         }
         .menu-section h2 {
             font-size: 2.0rem;
@@ -63,15 +61,14 @@
             color: #281208ad;
             text-shadow: 2px 2px 6px rgba(78, 13, 13, 0.7);
         }
-        
         .menu-section p {
            color : #5e0c0c;
         }
         .container {
             width: 100%;
             max-width: 800px;
-            margin: 0 auto; /* Centers the container */
-            padding: 0; /* Ensures no padding affects alignment */
+            margin: 0 auto;
+            padding: 0;
         }
 
         #header-img {
@@ -93,7 +90,6 @@
             border: none;
             padding: 0%;
             z-index: 10;
-            
         }
         .audio-controls img {
             width: 40px;
@@ -106,10 +102,10 @@
         }
 
         main {
-            margin: 20px auto; /* Centers the main content with margins */
-            padding: 0 10px; /* Adds padding to match the container's edge */
-            max-width: 800px; /* Matches the container's width */
-            box-sizing: border-box; /* Ensures padding is included in the width */
+            margin: 20px auto;
+            padding: 0 10px;
+            max-width: 800px;
+            box-sizing: border-box;
         }
 
         h1, h2, h3 {
@@ -121,7 +117,6 @@
             height: auto;
             max-width: 780px; 
         }
-        
         .itemimg {
             display: flex;
             align-items: center;
@@ -146,7 +141,6 @@
             text-align: right;
             width: 100px;
         }
-
         .order-section {
             background-color: #f5e6c8;
             padding: 20px; 
@@ -156,7 +150,6 @@
             max-width: 780px; 
             margin: 20px auto; 
         }
-
         .order-section label {
             font-family: 'Minecraft', sans-serif;
             font-weight: bold;
@@ -164,7 +157,6 @@
             display: block;
             margin-bottom: 10px;
         }
-
         .order-section input[type="text"],
         .order-section input[type="email"],
         .order-section select,
@@ -174,7 +166,7 @@
             margin-bottom: 15px;
             border: 2px solid #d4a373;
             border-radius: 5px;
-            background-color: #fdf1e7; /* Soft background for inputs */
+            background-color: #fdf1e7;
             font-size: 16px;
             font-family: 'Minecraft', sans-serif;
             color: #5e0c0c;
@@ -182,9 +174,8 @@
             box-sizing: border-box;
             max-width: 100%;
         }
-
         .order-section input[type="number"] {
-            width: 50px; /* Narrower field for quantity */
+            width: 50px;
             padding: 5px;
             margin-bottom: 15px;
             border: 2px solid #d4a373;
@@ -194,7 +185,6 @@
             font-family: 'Minecraft', sans-serif;
             color: #5e0c0c;
         }
-
         .order-section input[type="submit"] {
             background-color: #c97a63;
             color: white;
@@ -205,11 +195,9 @@
             cursor: pointer;
             transition: background-color 0.3s ease;
         }
-
         .order-section input[type="submit"]:hover {
-            background-color: #a85640; /* Darker shade on hover */
+            background-color: #a85640;
         }
-
         .order-section h2 {
             font-size: 1.7rem;
             font-family: 'Minecraft', sans-serif;
@@ -224,7 +212,34 @@
             color: #281208ad;
             text-shadow: 2px 2px 6px rgba(78, 13, 13, 0.7);
         }
-
+        .gallery-section {
+            background-color: bisque;
+            border-radius: 15px;
+            margin: 20px auto;
+            max-width: 780px;
+            padding: 20px;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        }
+        .gallery-section h2 {
+            font-size: 2.0rem;
+            font-weight: bold;
+            transition: color 0.5s, text-shadow 0.5s;
+            color: #5e0c0c;
+            margin-bottom: 20px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+            justify-content: center;
+        }
+        .gallery img {
+            max-width: 180px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+            background: #fff8f0;
+            padding: 6px;
+        }
         footer{
             background-color: #462424db;
             color: #f5e6c8;
@@ -235,7 +250,7 @@
             border-top: 3px solid #c97a63;
             box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.5);
             margin-top: 40px;
-            }
+        }
         footer a {
             color: #f5e6c8;
             text-decoration: none;
@@ -245,7 +260,6 @@
         footer a:hover {
             color: #c97a63;
         }
-
     </style>
     <title>NekoCafé</title>
 </head>
@@ -255,7 +269,7 @@
             <img src="../Final/image/nekocafe.gif" alt="NekoCafé" id="header-img">
             <div class="audio-controls">
                 <img src="../Final/image/PlayB.png" alt="Play" id="PlayB" style="display:block; cursor: pointer;">       
-                <img src="../Final/image/PauseB.png" alt="Pause" id="PauseB" style="display: none; cursor: pointer;"> <!-- DK WHY MY COMMENTS WERE'NT WORKING BUT, I finally got the play pause button working lol had to look into how the script works and also couldn't fix the play button in the beginning it's supposed to show pause lol but after that it works :3 so I'm good -->
+                <img src="../Final/image/PauseB.png" alt="Pause" id="PauseB" style="display: none; cursor: pointer;">
                 <audio id="bg-audio" autoplay loop>
                     <source src="../Final/Assets/CoffeeLofi.mp3" type="audio/mpeg">
                     <p>If you are reading this, it is because your browser does not support the audio element.</p>
@@ -297,7 +311,7 @@
             </section>
         </div>
         <div class="order-section">
-            <a href="https://www.instagram.com/everybodyhtxkris/"><h2>Place Your Order</h2></a> <!-- I will take your order personally :3 -->
+            <a href="https://www.instagram.com/everybodyhtxkris/"><h2>Place Your Order</h2></a>
             <br><br>
             <form>
                 <label for="name">Name:</label><br>
@@ -318,9 +332,21 @@
                 <input type="submit" value="Submit">
             </form>
         </div>
+        <!-- Gallery section added below -->
+        <section class="gallery-section">
+            <h2>Gallery</h2>
+            <div class="gallery">
+                <img src="../Final/Images/cheesecake.png" alt="cheesecake">
+                <img src="../Final/Images/coffee.gif" alt="coffee">
+                <img src="../Final/Images/croissant.png" alt="croissant">
+                <img src="../Final/Images/nekocafe.gif" alt="NekoCafé logo">
+                <img src="../Final/Images/PlayB.png" alt="Play Button">
+                <img src="../Final/Images/PauseB.png" alt="Pause Button">
+            </div>
+        </section>
     </main>
     <script>
-        const audio = document.getElementById('bg-audio'); /* Totally unnecessary rn but I researched some stuff and apparently I can control volume, play/pause button with JS so I did :3 */
+        const audio = document.getElementById('bg-audio');
         const playB = document.getElementById('PlayB');
         const pauseB = document.getElementById('PauseB');
 
